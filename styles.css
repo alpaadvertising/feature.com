@@ -1,0 +1,41 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #d15a28; /* Orange */
+    color: #fff;
+    margin: 0;
+}
+
+/* Container for the diagram */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+/* Styling for the diagram box */
+.diagram-box {
+    background-color: #006d4e; /* Dark Teal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.diagram-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 5px solid #d15a28; /* Orange border for image */
+}
