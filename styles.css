@@ -7,32 +7,75 @@ body {
     color: #333;
 }
 
-h1 {
-    text-align: center;
-    padding: 20px;
+/* Header */
+header {
     background-color: #d15a28; /* Orange */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
     color: #fff;
+    font-size: 2.5em;
     margin: 0;
 }
 
-/* Container for the diagram */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+/* Content Section */
+.content {
     padding: 20px;
 }
 
-/* Styling for the diagram box */
-.diagram-box {
-    background-color: #006d4e; /* Dark Teal */
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features h2 {
+    color: #006d4e; /* Dark Teal */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.features ul li strong {
+    color: #006d4e; /* Dark Teal */
+}
+
+/* Architecture Section */
+.architecture {
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Image Styling */
+.architecture h2 {
+    color: #006d4e; /* Dark Teal */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the Diagram Box */
+.diagram-box {
+    text-align: center;
+    background-color: #006d4e; /* Dark Teal */
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .diagram-box img {
     max-width: 100%;
     height: auto;
